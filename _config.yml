@@ -1,0 +1,18 @@
+# Site settings
+title: Peacock Presentations
+email: matthewrowles@gmail.com
+description: >
+  A presentation toolkit
+safe:        false
+auto:        true
+server:      false
+server_port: 4000
+baseurl:
+url:
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+future:      true
+markdown:    maruku
+permalink:   date
+markdown:    kramdown

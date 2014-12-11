@@ -1,0 +1,62 @@
+.home-container {
+	position: absolute;
+	background-image: url('/img/home-bg.jpg');
+	background-size: cover;
+	background-position: right;
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-family: Helvetica;
+}
+
+.home-content {
+	padding: 20px;
+	background: rgba( 0, 0, 0, 0.8);
+	color: white;
+
+	.post-meta {
+		color: #eaeaea;
+	}
+
+	.post-link {
+
+	}
+}
+
+@media (min-width: 768px) {
+	.home-content {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.home-content {
+		width: 50%;
+		margin: 20px auto;
+		border-radius: 10px;
+		bottom: 0; left: 0; top: 0; right: 0;
+		margin: auto;
+		position: absolute;
+		width: 50%;
+		height: 50%;
+		box-shadow: -2px -2px 30px #000;
+	}
+}
+
+ul.post-list {
+	li {
+
+		a {
+			color: #ff5e99;
+
+			&:hover {
+
+			}
+
+			&:visited {
+
+			}
+
+		}
+	}
+}
