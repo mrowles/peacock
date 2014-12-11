@@ -41,11 +41,11 @@ Once your local instance is up and running, it's time to make your first post:
     1. copying and pasting the example presentation in '_posts' directory
     2. by using Create a new post file by executing the 'new-post' script:
 
-        # usage
-        ./new-post.sh -f filename -t post-title
+            // usage
+            ./new-post.sh -f filename -t post-title
 
-        # example: produce a file: ./_posts/12-12-2014-new-post
-        ./new-post.sh -f new-post -t "A New Post"
+            // example: produce a file: ./_posts/12-12-2014-new-post
+            ./new-post.sh -f new-post -t "A New Post"
 
 3. Open your post from the '_post' directory in your favourite editor
 
