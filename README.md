@@ -24,7 +24,7 @@ Once you have cloned the repository, let's install the important packages:
 
 1. Start the Jekyll 'server':
 
-        jekyll serve
+        jekyll serve --watch
 
 2. Open localhost:4000 in your browser
 
